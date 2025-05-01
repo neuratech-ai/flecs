@@ -76,7 +76,7 @@ extern "C" {
 #endif
 
 /** Max number of constants/members that can be specified in desc structs. */
-#define ECS_MEMBER_DESC_CACHE_SIZE (32)
+#define ECS_MEMBER_DESC_CACHE_SIZE (256)
 
 /** Primitive type definitions.
  * These typedefs allow the builtin primitives to be used as regular components:
